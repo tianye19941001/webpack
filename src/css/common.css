@@ -1,0 +1,4 @@
+@import "flex.css";
+
+html,body{ padding: 0; margin: 0; background-color: red; }
+u,li{  margin: 0;  padding: 0; }
