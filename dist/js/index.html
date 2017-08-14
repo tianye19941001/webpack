@@ -1,11 +1,90 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-</head>
-<body>
-    <div id="app"></div>
-    <img src="assets/bg-b9fbb.png" alt="">
-<script type="text/javascript" src="main.bundle.js"></script></body>
-</html>
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module build failed: Error: '"E:\webpack-tt\webpack\node_modules\pngquant-bin\  vendor\pngquant.exe"' �����ڲ����ⲿ���Ҳ���ǿ����еĳ��� 
+  ���������ļ���
+  
+  - enoent.js:11 notFoundError
+    [webpack]/[execa]/[cross-spawn]/lib/enoent.js:11:11
+  
+  - enoent.js:46 verifyENOENT
+    [webpack]/[execa]/[cross-spawn]/lib/enoent.js:46:16
+  
+  - enoent.js:33 ChildProcess.cp.emit
+    [webpack]/[execa]/[cross-spawn]/lib/enoent.js:33:19
+  
+  
+  - Error: '"E:\webpack-tt\webpack\node_modules\pngquant-bin\vendor\pngquant.exe    "' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+  
+  - ���������ļ���
+  
+  - compiler.js:76 
+    [webpack]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:296 Compiler.<anonymous>
+    [webpack]/[webpack]/lib/Compiler.js:296:10
+  
+  - Compiler.js:499 
+    [webpack]/[webpack]/lib/Compiler.js:499:13
+  
+  - Tapable.js:138 next
+    [webpack]/[tapable]/lib/Tapable.js:138:11
+  
+  - CachePlugin.js:62 Compiler.<anonymous>
+    [webpack]/[webpack]/lib/CachePlugin.js:62:5
+  
+  - Tapable.js:142 Compiler.applyPluginsAsyncSeries
+    [webpack]/[tapable]/lib/Tapable.js:142:13
+  
+  - Compiler.js:496 
+    [webpack]/[webpack]/lib/Compiler.js:496:10
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:649 self.applyPluginsAsync.err
+    [webpack]/[webpack]/lib/Compilation.js:649:19
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:640 self.applyPluginsAsync.err
+    [webpack]/[webpack]/lib/Compilation.js:640:11
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:635 self.applyPluginsAsync.err
+    [webpack]/[webpack]/lib/Compilation.js:635:10
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:631 sealPart2
+    [webpack]/[webpack]/lib/Compilation.js:631:9
+  
+  - Tapable.js:131 Compilation.applyPluginsAsyncSeries
+    [webpack]/[tapable]/lib/Tapable.js:131:46
+  
+  - Compilation.js:579 Compilation.seal
+    [webpack]/[webpack]/lib/Compilation.js:579:8
+  
+  - Compiler.js:493 
+    [webpack]/[webpack]/lib/Compiler.js:493:16
+  
+  - Tapable.js:225 
+    [webpack]/[tapable]/lib/Tapable.js:225:11
+  
+  - Compilation.js:481 _addModuleChain
+    [webpack]/[webpack]/lib/Compilation.js:481:11
+  
+  - Compilation.js:452 processModuleDependencies.err
+    [webpack]/[webpack]/lib/Compilation.js:452:13
+  
+  - next_tick.js:67 _combinedTickCallback
+    internal/process/next_tick.js:67:7
+  
+  - next_tick.js:98 process._tickCallback
+    internal/process/next_tick.js:98:9
+  
+</pre><script type="text/javascript" src="main.bundle.js"></script>

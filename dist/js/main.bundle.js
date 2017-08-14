@@ -463,9 +463,9 @@ function updateLink(linkElement, options, obj) {
 
 /***/ }),
 /* 2 */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-module.exports = __webpack_require__.p + "assets/bg-b9fbb.png";
+throw new Error("Module build failed: Error: '\"E:\\webpack-tt\\webpack\\node_modules\\pngquant-bin\\vendor\\pngquant.exe\"' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���\r\n���������ļ���\r\n\n    at notFoundError (E:\\webpack-tt\\webpack\\node_modules\\execa\\node_modules\\cross-spawn\\lib\\enoent.js:11:11)\n    at verifyENOENT (E:\\webpack-tt\\webpack\\node_modules\\execa\\node_modules\\cross-spawn\\lib\\enoent.js:46:16)\n    at ChildProcess.cp.emit (E:\\webpack-tt\\webpack\\node_modules\\execa\\node_modules\\cross-spawn\\lib\\enoent.js:33:19)\n    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:12)");
 
 /***/ }),
 /* 3 */
@@ -579,7 +579,7 @@ exports = module.exports = __webpack_require__(0)(undefined);
 exports.i(__webpack_require__(8), "");
 
 // module
-exports.push([module.i, "html,body{ padding: 0; margin: 0; background-color: red; }\nu,li{  margin: 0;  padding: 0; }\n", ""]);
+exports.push([module.i, "html,body{ padding: 0; margin: 0; background-color: red; }\r\nu,li{  margin: 0;  padding: 0; }\r\n", ""]);
 
 // exports
 
@@ -607,17 +607,17 @@ obj || (obj = {});
 var __t, __p = '', __j = Array.prototype.join;
 function print() { __p += __j.call(arguments, '') }
 with (obj) {
-__p += '<div class="layer">\n    <img src="' +
+__p += '<div class="layer">\r\n    <img src="' +
 ((__t = (__webpack_require__(2))) == null ? '' : __t) +
-'" alt="">\n    <div> this is a layer ' +
+'" alt="">\r\n    <div> this is a layer ' +
 ((__t = ( name )) == null ? '' : __t) +
-'</div>\n    ';
+'</div>\r\n    ';
  for (var i = 0; i< arr.length ;i++) { ;
-__p += '\n        ' +
+__p += '\r\n        ' +
 ((__t = ( arr[i] )) == null ? '' : __t) +
-'\n    ';
+'\r\n    ';
  } ;
-__p += '\n</div>';
+__p += '\r\n</div>';
 
 }
 return __p
